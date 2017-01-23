@@ -1,0 +1,27 @@
+<!ELEMENT collection ( recipe ) >
+
+<!ELEMENT comment ( #PCDATA ) >
+
+<!ELEMENT ingredient EMPTY >
+<!ATTLIST ingredient amount NMTOKEN #IMPLIED >
+<!ATTLIST ingredient name CDATA #REQUIRED >
+<!ATTLIST ingredient unit CDATA #IMPLIED >
+
+<!ELEMENT nutrition EMPTY >
+<!ATTLIST nutrition calories NMTOKEN #REQUIRED >
+<!ATTLIST nutrition carbohydrates NMTOKEN #REQUIRED >
+<!ATTLIST nutrition fat NMTOKEN #REQUIRED >
+<!ATTLIST nutrition protein NMTOKEN #REQUIRED >
+
+<!ELEMENT origin ( #PCDATA ) >
+
+<!ELEMENT preparation ( step+ ) >
+
+<!ELEMENT recipe ( title, ingredient+, preparation, serving, origin, comment, nutrition ) >
+
+<!ELEMENT serving ( #PCDATA ) >
+
+<!ELEMENT step ( #PCDATA ) >
+
+<!ELEMENT title ( #PCDATA ) >
+

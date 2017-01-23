@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cookbook>
+  <recipe>
+    <title>Яйца по панагюрски</title>
+    <ingredients>
+      <ingredient name="яйце" amount="6"/>
+      <ingredient name="краве масло" amount="1" unit="супена лъжица"/>
+      <ingredient name="червен пипер" amount="1" unit="супена лъжица"/>
+      <ingredient name="сол"/>
+      <ingredient name="оцет" amount="1" unit="супена лъжица"/>
+      <ingredient name="вода" amount="1" unit="литър"/>
+      <ingredient name="кисело мляко" amount="300" unit="грам"/>
+      <ingredient name="краве сирене" amount="100" unit="грам"/>
+      <ingredient name="чесън" amount="5" unit="скилидка"/>
+      <ingredient name="копър" amount="1" unit="стрък"/>
+    </ingredients>
+    <preparation>
+      <step>В тенджера се загрява подсолена вода (1 л.) с оцет (1 с.л.).</step>
+      <step>Щом заври, съдът се премества от котлона и във водата се счукват от ниско яйцата (6 бр).</step>
+      <step>Съдът се връща на котлона и след няколко минути яйцата се изваждат с решетъчна лъжица.</step>
+      <step>В тиган се загряват маслото (1 с.л.) и червеният пипер (1 с.л.) и се разбъркват.</step>
+      <step>Яйцата се сервират в порционна чиния и се заливат с разбитото със счукания чесън (5 скилидки), кисело мляко (300 г), сирене (150 г) и след това с мазнината.</step>
+    </preparation>
+    <serving>Ястието се сервира в чиния и се поръсва със ситно нарязан пресен копър (1 стрък).</serving>
+    <origin>Панагюрище</origin>
+    <comment>Яйца по панагюрски е традиционно българско ястие. То е богато на протеин и мазнини. Има малко въглехидрати и затова е приятно да се консумира с хляб.</comment>
+    <nutrition calories="930" fat="72" carbohydrates="20" protein="63"/>
+  </recipe>
+</cookbook>
