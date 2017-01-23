@@ -1,0 +1,1 @@
+java -cp tools/dtdgen.jar DTDGenerator cookbook.xml > cookbook.dtd

@@ -13,7 +13,7 @@
       </fo:layout-master-set>
       <fo:page-sequence master-reference="A4-portrait">
         <fo:flow flow-name="xsl-region-body">
-          <fo:block>
+          <fo:block font-family="Calibri">
             Hello, <xsl:value-of select="cookbook/recipe/title"/>!
           </fo:block>
         </fo:flow>
