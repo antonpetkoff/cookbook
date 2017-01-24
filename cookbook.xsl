@@ -24,8 +24,9 @@
   </xsl:template>
 
   <xsl:template match="cookbook/recipe">
-    <xsl:apply-templates select="title"/>
-    <xsl:apply-templates select="region"/>
+    <xsl:apply-templates select="title" />
+    <xsl:apply-templates select="region" />
+    <xsl:apply-templates select="ingredients" />
     ----
   </xsl:template>
 
@@ -36,4 +37,17 @@
   <xsl:template match="region">
     Регион: <xsl:value-of select="." />
   </xsl:template>
+
+  <xsl:template match="ingredients">
+    Съставки: <xsl:apply-templates select="ingredient" />
+  </xsl:template>
+
+  <xsl:template match="ingredient">
+    • <xsl:value-of select="@amount" />
+    <xsl:text> </xsl:text>
+    <xsl:value-of select="@unit" />
+    <xsl:text> </xsl:text>
+    <xsl:value-of select="@name" />
+  </xsl:template>
+
 </xsl:stylesheet>
