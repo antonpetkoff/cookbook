@@ -13,11 +13,27 @@
       </fo:layout-master-set>
       <fo:page-sequence master-reference="A4-portrait">
         <fo:flow flow-name="xsl-region-body">
-          <fo:block font-family="Calibri">
+          <fo:block font-family="Calibri" linefeed-treatment="preserve">
             Hello, <xsl:value-of select="cookbook/recipe/title"/>!
+
+            <xsl:apply-templates select="cookbook/recipe"/>
           </fo:block>
         </fo:flow>
       </fo:page-sequence>
     </fo:root>
+  </xsl:template>
+
+  <xsl:template match="cookbook/recipe">
+    <xsl:apply-templates select="title"/>
+    <xsl:apply-templates select="region"/>
+    ----
+  </xsl:template>
+
+  <xsl:template match="title">
+    Име на рецептата: <xsl:value-of select="." />
+  </xsl:template>
+
+  <xsl:template match="region">
+    Регион: <xsl:value-of select="." />
   </xsl:template>
 </xsl:stylesheet>
