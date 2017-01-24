@@ -1,0 +1,3 @@
+xmllint --noout cookbook.xml
+xmllint --noout cookbook.xsl
+xmllint --noout --dtdvalid cookbook.dtd cookbook.xml

@@ -53,8 +53,8 @@
       <ingredient name="домат" amount="0.5" unit="кг"/>
       <ingredient name="лук" amount="2" unit="глава"/>
       <ingredient name="олио" amount="70" unit="мл"/>
-      <ingredient name="сол" amount="1" unit="tablespoon"/>
-      <ingredients>
+      <ingredient name="сол" amount="1" unit="супена лъжица"/>
+    </ingredients>
     <preparation>
       <step>Пиперът се изпича, обелва се и се нарязва на ситно.</step>
       <step>Доматите се обелват.</step>

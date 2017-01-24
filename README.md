@@ -1,12 +1,6 @@
 
-Prerequisites:
-* [DTDGenerator](http://saxon.sourceforge.net/dtdgen.html)
-* [Apache FOP](https://xmlgraphics.apache.org/fop/download.html)
+Validate the XML, the XSL file and the XML file with the DTD schema by executing `./validate`.
 
-Generating the DTD schema:
+Generate the DTD schema by executing `./dtdgen`.
 
-`java -cp dtdgen.jar DTDGenerator cookbook.xml > cookbook.dtd`
-
-Generating the PDF with XSLT transformations using Apache FOP:
-
-`./fop -xml cookbook.xml -xsl cookbook.xsl -pdf cookbook.pdf`
+Generate the PDF by executing `./pdfgen`.

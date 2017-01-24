@@ -1,0 +1,1 @@
+./tools/fop-2.1/fop -xml cookbook.xml -xsl cookbook.xsl -pdf cookbook.pdf -c tools/fop-2.1/conf/fop.xconf
