@@ -75,7 +75,7 @@
       <ingredient name="меродии" amount="?" unit="грам"/>
       <ingredient name="гьозум" amount="?" unit="грам"/>
       <ingredient name="сол" amount="?" unit="грам"/>
-      <ingredients>
+    </ingredients>
     <preparation>
       <step>Изкопава се дупка в стена от пръст с размери 100см х 60см. Целта е да да се получи нещо като фурна, която трябва да е достатъчно голяма за да влезе агнето</step>
       <step>Отгоре се прави дупка, която служи за комин.</step>
