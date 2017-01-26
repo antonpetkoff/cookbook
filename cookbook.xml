@@ -5,15 +5,15 @@
     <title>Яйца по панагюрски</title>
     <region>Панагюрище</region>
     <ingredients>
-      <ingredient name="яйце" amount="6"/>
+      <ingredient name="яйцa" amount="6"/>
       <ingredient name="краве масло" amount="1" unit="супена лъжица"/>
       <ingredient name="червен пипер" amount="1" unit="супена лъжица"/>
       <ingredient name="сол"/>
       <ingredient name="оцет" amount="1" unit="супена лъжица"/>
       <ingredient name="вода" amount="1" unit="литър"/>
-      <ingredient name="кисело мляко" amount="300" unit="грам"/>
-      <ingredient name="краве сирене" amount="100" unit="грам"/>
-      <ingredient name="чесън" amount="5" unit="скилидка"/>
+      <ingredient name="кисело мляко" amount="300" unit="грама"/>
+      <ingredient name="краве сирене" amount="100" unit="грама"/>
+      <ingredient name="чесън" amount="5" unit="скилидки"/>
       <ingredient name="копър" amount="1" unit="стрък"/>
     </ingredients>
     <preparation>
@@ -51,7 +51,7 @@
     <ingredients>
       <ingredient name="пипер" amount="1" unit="кг"/>
       <ingredient name="домат" amount="500" unit="грама"/>
-      <ingredient name="лук" amount="2" unit="глава"/>
+      <ingredient name="лук" amount="2" unit="глави"/>
       <ingredient name="олио" amount="70" unit="мл"/>
       <ingredient name="сол" amount="1" unit="супена лъжица"/>
     </ingredients>
@@ -72,9 +72,9 @@
     <region>Странджа</region>
     <ingredients>
       <ingredient name="агне" amount="1" unit="агне"/>
-      <ingredient name="меродии" amount="150" unit="грам"/>
-      <ingredient name="гьозум" amount="150" unit="грам"/>
-      <ingredient name="сол" amount="150" unit="грам"/>
+      <ingredient name="меродии" amount="150" unit="грама"/>
+      <ingredient name="гьозум" amount="150" unit="грама"/>
+      <ingredient name="сол" amount="150" unit="грама"/>
     </ingredients>
     <preparation>
       <step>Изкопава се дупка в стена от пръст с размери 100см х 60см. Целта е да да се получи нещо като фурна, която трябва да е достатъчно голяма за да влезе агнето</step>
@@ -96,9 +96,9 @@
     <region>Странджа</region>
     <ingredients>
       <ingredient name="заден свински бут" amount="7" unit="кг"/>
-      <ingredient name="чубрица" amount="100" unit="грам"/>
-      <ingredient name="млян червен пипер" amount="100" unit="грам"/>
-      <ingredient name="млян лютив червен пипер" amount="100" unit="грам"/>
+      <ingredient name="чубрица" amount="100" unit="грама"/>
+      <ingredient name="млян червен пипер" amount="100" unit="грама"/>
+      <ingredient name="млян лютив червен пипер" amount="100" unit="грама"/>
     </ingredients>
     <preparation>
       <step>Коли се прасе като се опърля и не се дере.</step>
@@ -120,14 +120,14 @@
   <recipe>
     <title>Постни сарми с лапад</title>
     <ingredients>
-      <ingredient name="листа от лапад" amount="40" unit="листо"/>
+      <ingredient name="листа от лапад" amount="40" unit="листа"/>
       <ingredient name="гъба" amount="5" unit="броя"/>
       <ingredient name="морков" amount="2" unit="броя"/>
       <ingredient name="пресен лук" amount="1" unit="връзка"/>
       <ingredient name="чесън" amount="2" unit="скилидки"/>
-      <ingredient name="ориз" amount="150" unit="грам"/>
+      <ingredient name="ориз" amount="150" unit="грама"/>
       <ingredient name="гьозум" amount="3" unit="клонки"/>
-      <ingredient name="олио/зехтин" amount="3" unit="супена лъжица"/>
+      <ingredient name="олио/зехтин" amount="3" unit="супена лъжици"/>
       <ingredient name="сол" amount="2" unit="щипки"/>
       <ingredient name="черен пипер" amount="3" unit="щипки"/>
     </ingredients>
@@ -147,12 +147,12 @@
   </recipe>
 
   <recipe>
-    <title>Постни сарми с лапад</title>
+    <title>Агнешка дроб чорба</title>
     <ingredients>
       <ingredient name="агнешки дреболии" amount="500" unit="грама"/>
       <ingredient name="морков" amount="1" unit="брой"/>
       <ingredient name="пресен лук" amount="1" unit="връзка"/>
-      <ingredient name="ориз" amount="80" unit="грам"/>
+      <ingredient name="ориз" amount="80" unit="грама"/>
       <ingredient name="олио/зехтин" amount="3" unit="супена лъжица"/>
       <ingredient name="гьозум" amount="3" unit="стръка"/>
       <ingredient name="сол" amount="2" unit="щипки"/>
@@ -173,6 +173,7 @@
       <step>Жълтъкът се разбърква с киселото мляко и се добавя към дроб чорбата.</step>
       <step>Поръсва се с черен пипер, сервира се с пресен чесън.</step>
     </preparation>
+    <comment>Сармите традиционно се поднасят с кисело мляко.</comment>
     <nutrition calories="2045" fat="128" carbohydrates="163" protein="120"/>
   </recipe>
 </cookbook>

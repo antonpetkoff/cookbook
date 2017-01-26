@@ -14,8 +14,6 @@
       <fo:page-sequence master-reference="A4-portrait">
         <fo:flow flow-name="xsl-region-body">
           <fo:block font-family="Calibri" linefeed-treatment="preserve">
-            Hello, <xsl:value-of select="cookbook/recipe/title"/>!
-
             <xsl:apply-templates select="cookbook/recipe"/>
           </fo:block>
         </fo:flow>
