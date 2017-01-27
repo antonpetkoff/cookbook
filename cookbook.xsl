@@ -14,16 +14,16 @@
       <fo:page-sequence master-reference="A4-portrait">
         <fo:flow flow-name="xsl-region-body">
           <fo:block font-family="Calibri" linefeed-treatment="preserve">
-            <xsl:apply-templates select="cookbook/recipe"/>
+            <xsl:apply-templates select="cookbook/recipes/recipe"/>
           </fo:block>
         </fo:flow>
       </fo:page-sequence>
     </fo:root>
   </xsl:template>
 
-  <xsl:template match="cookbook/recipe">
+  <xsl:template match="cookbook/recipes/recipe">
     <xsl:apply-templates select="title" />
-    <xsl:apply-templates select="region" />
+    Регион: <xsl:value-of select="@regionID" />
     <xsl:apply-templates select="ingredients" />
     <xsl:apply-templates select="preparation" />
     <xsl:apply-templates select="comment" />
@@ -33,10 +33,6 @@
 
   <xsl:template match="title">
     Име на рецептата: <xsl:value-of select="." />
-  </xsl:template>
-
-  <xsl:template match="region">
-    Регион: <xsl:value-of select="." />
   </xsl:template>
 
   <xsl:template match="ingredients">

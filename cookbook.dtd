@@ -1,6 +1,6 @@
 <!ELEMENT comment ( #PCDATA ) >
 
-<!ELEMENT cookbook ( recipe+ ) >
+<!ELEMENT cookbook ( regions, recipes ) >
 
 <!ELEMENT ingredient EMPTY >
 <!ATTLIST ingredient amount NMTOKEN #IMPLIED >
@@ -17,9 +17,16 @@
 
 <!ELEMENT preparation ( step+ ) >
 
-<!ELEMENT recipe ( comment | ingredients | nutrition | preparation | region | serving | title )* >
+<!ELEMENT recipe ( comment | ingredients | nutrition | preparation | serving | title )* >
+<!ATTLIST recipe regionID IDREF #REQUIRED >
 
-<!ELEMENT region ( #PCDATA ) >
+<!ELEMENT recipes ( recipe+ ) >
+
+<!ELEMENT region EMPTY >
+<!ATTLIST region id ID #REQUIRED >
+<!ATTLIST region name CDATA #REQUIRED >
+
+<!ELEMENT regions ( region+ ) >
 
 <!ELEMENT serving ( #PCDATA ) >
 
