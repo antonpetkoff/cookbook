@@ -1,3 +1,13 @@
+<!NOTATION JPG SYSTEM "image/jpeg">
+
+<!ENTITY chorba SYSTEM "agneshka-drob-chorba.jpg" NDATA JPG >
+<!ENTITY agne SYSTEM "agne-v-trap.jpg" NDATA JPG >
+<!ENTITY mandja SYSTEM "lqtna-mandja.jpg" NDATA JPG >
+<!ENTITY sarmi SYSTEM "postni-sarmi-s-lapad.jpg" NDATA JPG >
+<!ENTITY prokmach SYSTEM "prokmach.jpg" NDATA JPG >
+<!ENTITY qijca SYSTEM "qijca-po-panagurski.jpg" NDATA JPG >
+<!ENTITY but SYSTEM "strandjanski-but.jpg" NDATA JPG >
+
 <!ELEMENT comment ( #PCDATA ) >
 
 <!ELEMENT cookbook ( regions, recipes ) >
@@ -17,8 +27,9 @@
 
 <!ELEMENT preparation ( step+ ) >
 
-<!ELEMENT recipe ( comment | ingredients | nutrition | preparation | serving | title )* >
+<!ELEMENT recipe ( comment | ingredients | nutrition | preparation | serving | title | image )* >
 <!ATTLIST recipe regionID IDREF #REQUIRED >
+<!ATTLIST recipe image ENTITY #REQUIRED >
 
 <!ELEMENT recipes ( recipe+ ) >
 

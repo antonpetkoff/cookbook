@@ -9,7 +9,7 @@
   </regions>
 
   <recipes>
-    <recipe regionID="Пан">
+    <recipe regionID="Пан" image="qijca">
       <title>Яйца по панагюрски</title>
       <ingredients>
         <ingredient name="яйцa" amount="6"/>
@@ -35,7 +35,7 @@
       <nutrition calories="930" fat="72" carbohydrates="20" protein="63"/>
     </recipe>
 
-    <recipe regionID="Стр">
+    <recipe regionID="Стр" image="prokmach">
       <title>Прокмач</title>
       <ingredients>
         <ingredient name="овче мляко" amount="1" unit="литър"/>
@@ -51,7 +51,7 @@
       <nutrition calories="640" fat="37" carbohydrates="47" protein="33"/>
     </recipe>
 
-    <recipe regionID="Стр">
+    <recipe regionID="Стр" image="mandja">
       <title>Лятна манджа</title>
       <ingredients>
         <ingredient name="пипер" amount="1" unit="кг"/>
@@ -72,7 +72,7 @@
       <nutrition calories="909" fat="73" carbohydrates="66" protein="13"/>
     </recipe>
 
-    <recipe regionID="Стр">
+    <recipe regionID="Стр" image="agne">
       <title>Печено агне</title>
       <ingredients>
         <ingredient name="агне" amount="1" unit="агне"/>
@@ -95,7 +95,7 @@
       <nutrition calories="48400" fat="2884" carbohydrates="0" protein="5200"/>
     </recipe>
 
-    <recipe regionID="Стр">
+    <recipe regionID="Стр" image="but">
       <title>Странджански бут</title>
       <ingredients>
         <ingredient name="заден свински бут" amount="7" unit="кг"/>
@@ -120,7 +120,7 @@
       <nutrition calories="17150" fat="1330" carbohydrates="0" protein="1218"/>
     </recipe>
 
-    <recipe regionID="СБ">
+    <recipe regionID="СБ" image="sarmi">
       <title>Постни сарми с лапад</title>
       <ingredients>
         <ingredient name="листа от лапад" amount="40" unit="листа"/>
@@ -149,7 +149,7 @@
       <nutrition calories="500" fat="14" carbohydrates="84.3" protein="7.9"/>
     </recipe>
 
-    <recipe regionID="ЮБ">
+    <recipe regionID="ЮБ" image="chorba">
       <title>Агнешка дроб чорба</title>
       <ingredients>
         <ingredient name="агнешки дреболии" amount="500" unit="грама"/>
