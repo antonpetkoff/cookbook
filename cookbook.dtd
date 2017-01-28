@@ -27,7 +27,7 @@
 
 <!ELEMENT preparation ( step+ ) >
 
-<!ELEMENT recipe ( comment | ingredients | nutrition | preparation | serving | title | image )* >
+<!ELEMENT recipe ( comment | ingredients | nutrition | preparation | serving | title )* >
 <!ATTLIST recipe regionID IDREF #REQUIRED >
 <!ATTLIST recipe image ENTITY #REQUIRED >
 
