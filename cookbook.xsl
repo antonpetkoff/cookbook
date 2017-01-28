@@ -23,7 +23,7 @@
 
   <xsl:template match="cookbook/recipes/recipe">
     <xsl:apply-templates select="title" />
-    Регион: <xsl:value-of select="@regionID" />
+    <xsl:apply-templates select="@regionID" />
     <xsl:apply-templates select="ingredients" />
     <xsl:apply-templates select="preparation" />
     <xsl:apply-templates select="comment" />
@@ -33,6 +33,11 @@
 
   <xsl:template match="title">
     Име на рецептата: <xsl:value-of select="." />
+  </xsl:template>
+
+  <xsl:template match="@regionID">
+    <xsl:variable name="regionRef" select="." />
+    Регион: <xsl:value-of select="/cookbook/regions/region[@id = $regionRef]/@name" />
   </xsl:template>
 
   <xsl:template match="ingredients">
